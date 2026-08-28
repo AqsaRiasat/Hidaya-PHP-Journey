@@ -1,0 +1,11 @@
+
+actually
+this is the expected behavior of the script and it shows that the file handling logic is
+working exactly as intended. Let me explain why this happens:explorer.php is physically 
+located inside the target directory, so when the scandir() loop runs, it reads it like any 
+other file and displays it as a link. When I click on that link, the condition is_file() 
+becomes true, which then triggers the file_get_contents('explorer.php') function.  
+Since file_get_contents() is designed to read raw text rather than executing PHP code 
+through the Apache server, it simply fetches the raw string contents of the file and 
+outputs it straight to the browser. Because the file being read happens to be our own script 
+it displays the raw source code on the screen
