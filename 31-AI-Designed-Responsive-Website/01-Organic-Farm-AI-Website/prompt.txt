@@ -1,0 +1,5 @@
+Create a modern, fully responsive Organic Farm website using HTML5, Bootstrap 5, CSS3, and JavaScript. Match the provided
+ reference design as closely as possible. Include a sticky navbar, hero section, How It Works, Our Promise, About Our Farm, 
+Happy Animals, product cards, Organic Food section, Google Maps, and footer. Use Bootstrap 5 only (no Tailwind), Poppins font,
+ a green and orange color scheme, smooth animations, hover effects,
+and high-quality Unsplash images. Keep the code clean, mobile-friendly, and organized into separate index.html, style.css, and script.js files.

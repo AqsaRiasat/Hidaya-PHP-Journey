@@ -1,0 +1,191 @@
+/* =========================
+   Google Font
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    overflow-x:hidden;
+    background:#fff;
+}
+
+/* =========================
+Navbar
+========================= */
+
+.navbar{
+    padding:15px 0;
+    transition:.4s;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#444;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#5aa32c;
+}
+
+/* =========================
+Hero
+========================= */
+
+.hero{
+    padding:140px 0 90px;
+    background:#eef6fd;
+}
+
+.hero h1{
+    font-size:65px;
+    color:#f26d21;
+    font-weight:700;
+}
+
+.hero h5{
+    color:#5aa32c;
+    letter-spacing:2px;
+}
+
+.hero p{
+    color:#666;
+    margin:25px 0;
+    line-height:28px;
+}
+
+.hero img{
+    width:100%;
+}
+
+/* =========================
+Buttons
+========================= */
+
+.btn-success{
+    background:#5aa32c;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#4a8b24;
+}
+
+.btn-warning{
+    background:#f26d21;
+    border:none;
+}
+
+.btn-warning:hover{
+    background:#d85b12;
+}
+
+/* =========================
+Section Title
+========================= */
+
+section h2{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+section p{
+    line-height:28px;
+}
+
+/* =========================
+Cards
+========================= */
+
+.card{
+    border:none;
+    transition:.4s;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* =========================
+Images
+========================= */
+
+img{
+    max-width:100%;
+}
+
+/* =========================
+Footer
+========================= */
+
+footer{
+    background:#222;
+}
+
+footer p{
+    margin:0;
+    color:#ddd;
+}
+
+/* =========================
+Responsive
+========================= */
+
+@media(max-width:991px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero img{
+    margin-top:40px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding:120px 0 60px;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.card img{
+    height:200px;
+}
+
+.nav-link{
+    margin-left:0;
+    padding:10px 0;
+}
+
+}
